@@ -1,0 +1,97 @@
+@media screen and (min-width: 200px) and (max-width: 699px) {
+    header{
+        height: 85vh;
+    }
+    .wrapper{
+        padding: 0 0;
+        justify-content: space-around;
+    }
+    .menu__button{
+        display: block;
+    }
+    .logo__button h3{
+        font-size: 24px;
+    }
+    .login h3{
+        font-size: 20px;
+    }
+    .main__buttons{
+        display: none;
+    }
+    .subtitles {
+        padding: 100px 0 0 0;
+    }
+    .subtitles h3{
+        font-size: 38px;
+        padding-left: 10px;
+    }
+    .subtitles p{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .main__section{
+        height: 175vh;
+    }
+    .find__work{
+        margin: 200px 0 0 0;
+    }
+    .work__menu_2{
+        display: flex;
+        position: absolute;
+        height: 20px;
+        min-width: 70%;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+    .find__work a:first-child{
+        position: absolute;
+        height: 20px;
+        min-width: 70%;
+        margin-top: -340px;
+        margin-left: 10px;
+    }
+    .find__work a p{
+        font-size: 16px;
+    }
+    .numbers{
+        display: none;
+    }
+    .find__work form{
+        margin-left: 10px;
+        width: 55%;
+    }
+    .find__work form input{
+        font-size: 14px;
+    }
+    .find p{
+        width:30%;
+        padding: 20px 30px;
+    }
+    .work__list-info{
+        padding: 0 30px;
+    }
+    .work__list-info h3{
+        padding-bottom: 20px;
+    }
+    .work__list{
+        padding: 0 30px;
+    }
+    .list__item{
+        margin-bottom: 30px;
+    }
+    .main__section-2{
+        height: 190vh;
+    }
+    .cv__info{
+        padding: 0 30px;
+    }
+    .cv__info h3{
+        padding-bottom: 20px;
+    }
+    .cv__list{
+        padding: 0 30px;
+    }
+    .cv__item{
+        margin-bottom: 30px;
+    }
+}
