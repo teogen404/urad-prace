@@ -416,3 +416,59 @@ header{
     opacity: 1;
     padding: 10px 10px;
 }
+.main__section-3{
+    height: 60vh;
+}
+.sluzby__info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.sluzby__info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+}
+.sluzby__button{
+    background-color: #eee;
+    padding: 25px 15px;
+    border-radius: 35px;
+
+}
+.sluzby__info a:first-child{
+    background-color: orange;
+}
+.sluzby__info a{
+    padding: 12px 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+.sluzby__item a img{
+    height: 50px;
+    width: 50px;
+}
+.sluzby__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 60px;
+}
+.sluzby__item{
+    width: 230px;
+    padding: 25px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
