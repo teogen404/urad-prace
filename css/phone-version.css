@@ -134,7 +134,7 @@
 }
 @media screen and (min-width: 700px) and (max-width: 999px) {
     header{
-        height: 100vh;
+        height: 800px;
     }
     .wrapper{
         padding: 0 0;
@@ -164,7 +164,7 @@
         padding-left: 10px;
     }
     .main__section{
-        height: 150vh;
+        height: 1400px;
     }
     .find__work{
         margin: 0 0;
@@ -221,7 +221,7 @@
         margin-bottom: 30px;
     }
     .main__section-2{
-        height: 110vh;
+        height: 900px;
     }
     .cv__info{
         padding: 0 0;
@@ -247,14 +247,14 @@
         margin-bottom: 30px;
     }
     .main__section-3{
-        height: 95vh;
+        height: 750px;
     }
     .main__section-4 h3:first-child{
         padding: 0 0 ;
         text-align: center;
     }
     .main__section-4{
-        height: 90vh;
+        height: 750px;
     }
     .mista__list{
         padding: 0 65px;
@@ -264,12 +264,12 @@
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1527px) {
+@media screen and (min-width: 1000px) and (max-width: 1341px) {
     header{
-        height: 80vh;
+        height: 650px;
     }
     .main__section{
-        height: 120vh;
+        height: 1000px;
     }
     .find__work{
         margin: 0 100px;
@@ -293,7 +293,7 @@
         margin-bottom: 30px;
     }
     .main__section-2{
-        height: 105vh;
+        height: 900px;
     }
     .cv__info{
         padding: 0 0;
@@ -319,14 +319,85 @@
         margin-bottom: 30px;
     }
     .main__section-3{
-        height: 90vh;
+        height: 750px;
     }
     .main__section-4 h3:first-child{
         padding: 0 0 ;
         text-align: center;
     }
     .main__section-4{
-        height: 85vh;
+        height: 700px;
+    }
+    .mista__list{
+        padding: 0 200px;
+    }
+    .mista__item{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 1342px) and (max-width: 1500px){
+    header{
+        height: 650px;
+    }
+    .main__section{
+        height: 600px;
+    }
+    .find__work{
+        margin: 0 100px;
+        margin-top: 50px;
+    }
+    .numbers{
+        display: flex;
+        padding: 0 20px;
+    }
+    .work__list-info{
+        padding: 0 0;
+        flex-direction: column;
+    }
+    .work__list-info h3{
+        padding-bottom: 20px;
+    }
+    .work__list{
+        padding: 0 150px;
+    }
+    .list__item{
+        margin-bottom: 30px;
+    }
+    .main__section-2{
+        height: 850px;
+    }
+    .cv__info{
+        padding: 0 0;
+        flex-direction: column;
+    }
+    .cv__info h3{
+        padding-bottom: 20px;
+    }
+    .cv__list{
+        padding: 0 220px;
+    }
+    .cv__item{
+        margin-bottom: 30px;
+    }
+    .sluzby__info{
+        padding: 0 0;
+        flex-direction: column;
+    }
+    .sluzby__list{
+        padding: 0 200px;
+    }
+    .sluzby__item{
+        margin-bottom: 30px;
+    }
+    .main__section-3{
+        height: 750px;
+    }
+    .main__section-4 h3:first-child{
+        padding: 0 0 ;
+        text-align: center;
+    }
+    .main__section-4{
+        height: 700px;
     }
     .mista__list{
         padding: 0 200px;
