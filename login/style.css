@@ -1,0 +1,22 @@
+.section__login{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 3px solid black;
+}
+
+.account__type-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+
+}
+
+.account__type-it{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
