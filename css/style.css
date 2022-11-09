@@ -442,7 +442,7 @@ header{
 /* NEW SECTION */
 
 .main__section-3{
-    height: 70vh;
+    height: 60vh;
 }
 .sluzby__info{
     display: flex;
@@ -529,7 +529,7 @@ header{
 /* NEW SECTION */
 
 .main__section-4{
-    height: 60vh;
+    height: 50vh;
 }
 .main__section-4 h3:first-child{
     padding: 0 200px;
@@ -632,5 +632,9 @@ body.active{
 .main__buttons ul a{
     text-decoration: none;
     color: #000;
+}
+.footer{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
