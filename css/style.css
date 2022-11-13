@@ -648,3 +648,25 @@ body.active{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+#news{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.news__section{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.news__item{
+    border-right: 0.5px grey solid;
+    width: 347px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
