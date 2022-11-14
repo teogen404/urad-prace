@@ -1,6 +1,6 @@
 
 header{
-    height: 70vh;
+    height: 650px;
     background-color: aqua;
 }
 .wrapper{
@@ -225,7 +225,7 @@ header{
 /* NEW SECTION */
 
 .main__section{
-    height: 60vh;
+    height: 550px;
 }
 .work__list-info{
     display: flex;
@@ -343,7 +343,7 @@ header{
 /* NEW SECTION */
 
 .main__section-2{
-    height: 60vh;
+    height: 500px;
 }
 .cv__info{
     display: flex;
@@ -447,7 +447,7 @@ header{
 /* NEW SECTION */
 
 .main__section-3{
-    height: 60vh;
+    height: 650px;
 }
 .sluzby__info{
     display: flex;
@@ -534,7 +534,7 @@ header{
 /* NEW SECTION */
 
 .main__section-4{
-    height: 50vh;
+    height: 700px;
 }
 .main__section-4 h3:first-child{
     padding: 0 200px;
