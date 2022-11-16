@@ -138,7 +138,7 @@ header{
     text-align: center;
     border: 0;
     background-color: orange;
-    padding: 16px 40px;
+    padding: 16px 30px;
     border-radius: 30px;
     appearance: none;
     font-family: 'Montserrat', sans-serif;
@@ -176,4 +176,89 @@ header{
     letter-spacing: 0.1em;
     color: #474747;
     margin-left: 30px;
+}
+section{
+    padding: 50px 250px 50px 250px;
+    text-align: center;
+}
+.main__section{
+    text-align: center;
+}
+.main__section h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+}
+.news__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news__section img{
+    margin-top: 50px;
+    width: 95%;
+}
+.news__item h2{
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+}
+.news__item p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+}
+.news__item button{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 50px;
+    border: 1px solid orange;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 10px;
+    transition: 150ms;
+}
+.news__item button:hover{
+    background-color: orange;
+    color: white;
+    transition: 150ms;
+}
+.main__section-2 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.buttons button{
+    width: calc(25% - 20px);
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 30px 0;
+    border: 0;
+    background-color: rgba(255, 165, 0, 0.8);
+    border-radius: 50px;
+    transition: 300ms;
+}
+.buttons button:hover{
+    background-color: orange;
+    transition: 300ms;
 }
