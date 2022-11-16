@@ -1,0 +1,201 @@
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    header{
+        padding: 0 0 50px 0;
+    }
+    section{
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .logo__button h3 {
+        font-size: 22px;
+        line-height: 20px;
+        color: #000;
+    }
+    .wrapper{
+        padding: 20px 20px;
+    }
+    .wrapper input{
+        font-size: 22px;
+    }
+    .main__buttons{
+        display: none;
+    }
+    .menu__button{
+        display: block;
+        position: absolute;
+        left: calc(50% - 22.5px);
+    }
+    .numbers{
+        display: none;
+    }
+    .subtitles h3{
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .subtitles p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .find__work form{
+        flex-direction: column;
+    }
+    .work__input select{
+        margin: 10px 0;
+        width: 60%;
+    }
+    .work__input input{
+        margin: 10px 0;
+        width: 60%;
+    }
+    .find__work form select{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .news__section{
+        flex-direction: column;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons button{
+        width: calc(90% - 20px);
+        margin-bottom: 20px;
+    }
+    .news__item{
+        width: 90%;
+    }
+    .news__item img{
+        width: 280px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+    header{
+        padding: 0 0 50px 0;
+    }
+    section{
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .logo__button h3 {
+        font-size: 22px;
+        line-height: 20px;
+        color: #000;
+    }
+    .wrapper{
+        padding: 20px 20px;
+    }
+    .wrapper input{
+        font-size: 22px;
+    }
+    .main__buttons{
+        display: none;
+    }
+    .menu__button{
+        display: block;
+        position: absolute;
+        left: calc(50% - 22.5px);
+    }
+    .numbers{
+        display: none;
+    }
+    .subtitles h3{
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .subtitles p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .find__work form select{
+        padding: 20px 10px;
+    }
+    .text-input{
+        margin: 0 20px;
+    }
+    .find__work form select{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .news__section{
+        padding: 0 50px;
+    }
+    .news__item{
+        width: 50%;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons button{
+        width: calc(60% - 20px);
+        margin-bottom: 30px;
+    }
+
+    .news__item{
+        width: 50%;
+        margin: 0;
+    }
+    .news__section img{
+        width: 300px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+    header{
+        padding: 0 100px 50px 100px;
+    }
+    section{
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .logo__button h3 {
+        font-size: 22px;
+        line-height: 20px;
+        color: #000;
+    }
+    .wrapper{
+        padding: 20px 20px;
+    }
+    .wrapper input{
+        font-size: 22px;
+    }
+    .main__buttons{
+        display: none;
+    }
+    .menu__button{
+        display: block;
+        position: absolute;
+        left: calc(50% - 22.5px);
+    }
+    .subtitles h3{
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .subtitles p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .find__work form select{
+        padding: 20px 10px;
+    }
+    .text-input{
+        margin: 0 20px;
+    }
+    .find__work form select{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .news__section{
+        padding: 0 100px;
+    }
+    .news__item{
+        width: 50%;
+        margin: 0;
+    }
+    .news__section img{
+        width: 300px;
+        height: 150px;
+    }
+}
