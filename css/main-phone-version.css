@@ -58,7 +58,7 @@
     .buttons{
         flex-direction: column;
     }
-    .buttons button{
+    .buttons form{
         width: calc(90% - 20px);
         margin-bottom: 20px;
     }
@@ -127,7 +127,7 @@
     .buttons{
         flex-direction: column;
     }
-    .buttons button{
+    .buttons form{
         width: calc(60% - 20px);
         margin-bottom: 30px;
     }

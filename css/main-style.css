@@ -250,20 +250,26 @@ section{
     justify-content: space-between;
     margin-top: 50px;
 }
-.buttons button{
+.buttons form{
     width: calc(25% - 20px);
     margin: 0 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
     padding: 30px 0;
     border: 0;
     background-color: rgba(255, 165, 0, 0.8);
     border-radius: 50px;
     transition: 300ms;
+    cursor: pointer;
 }
-.buttons button:hover{
+.buttons form button{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 300ms;
+    border: 0;
+    background-color: rgba(255, 165, 0, 0);
+}
+.buttons form:hover{
     background-color: orange;
     transition: 300ms;
 }
@@ -303,4 +309,14 @@ section{
 }
 body.active{
     overflow: hidden;
+}
+.nabidky__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nabidky__list div{
+    padding: 30px 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
 }
