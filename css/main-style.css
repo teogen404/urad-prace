@@ -323,14 +323,14 @@ body.active{
     font-weight: 600;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 .nabidky__list div h2{
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color: orange;
 }
 .nabidky__list div p{
@@ -364,4 +364,9 @@ body.active{
 .nabidky__list div button:hover{
     background-color: orange;
     transition: 300ms;
+}
+.nabidky__list div img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -15px;
 }
