@@ -71,10 +71,13 @@
     .nabidky__list{
         padding: 0 40px;
     }
-    .nabidky__list div{
+    .nabidky__list div, .nabidky__list button{
         margin: 0 auto;
         margin-bottom: 30px;
         width: calc(80%);
+    }
+    .vyber{
+        flex-direction: column;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
@@ -150,12 +153,15 @@
     .nabidky__list{
         padding: 0 50px;
     }
-    .nabidky__list div{
+    .nabidky__list div, .nabidky__list button{
         width: calc(50% - 42px);
     }
 
     .main__buttons.active{
         margin-left: -20px;
+    }
+    .vyber{
+        padding: 0 40px;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1299px) {
@@ -238,6 +244,13 @@
     .nabidky__list div{
         width: calc(33.3% - 42px);
     }
+    .nabidky__list button{
+        width: calc(50% - 42px);
+        padding: 30px  0;
+    }
+    .vyber{
+        padding: 0 50px;
+    }
 }
 @media screen and (min-width: 1300px) and (max-width: 1499px) {
     header{
@@ -295,5 +308,8 @@
     .news__section img{
         width: 300px;
         height: 150px;
+    }
+    .vyber{
+        padding: 0 100px;
     }
 }

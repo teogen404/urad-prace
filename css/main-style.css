@@ -310,12 +310,13 @@ body.active{
     justify-content: space-between;
     margin-top: 50px;
 }
-.nabidky__list div{
+.nabidky__list div, .nabidky__list button{
     padding: 15px 0;
     width: calc(25% - 42px);
     border: 1px solid #000;
     border-radius: 50px;
     margin: 20px 20px 30px 20px;
+    background-color: #fff;
 }
 .nabidky__list div h3{
     font-family: 'Montserrat', sans-serif;
@@ -369,4 +370,44 @@ body.active{
     width: 50px;
     height: 50px;
     margin-bottom: -15px;
+}
+.vyber{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.vyber select{
+    text-align: center;
+    border: 0;
+    background-color: orange;
+    padding: 20px 40px;
+    border-radius: 30px;
+    appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nabidky__list button h3{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.nabidky__list button p{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.6;
+    padding: 10px 30px 20px 30px;
+}
+.nabidky__list button:hover h3{
+    color: orange;
 }
