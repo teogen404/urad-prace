@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 799px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
     header{
         padding: 0 0 50px 0;
     }
@@ -68,8 +68,16 @@
     .news__item img{
         width: 280px;
     }
+    .nabidky__list{
+        padding: 0 40px;
+    }
+    .nabidky__list div{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: calc(80%);
+    }
 }
-@media screen and (min-width: 800px) and (max-width: 1299px) {
+@media screen and (min-width: 600px) and (max-width: 799px) {
     header{
         padding: 0 0 50px 0;
     }
@@ -83,7 +91,91 @@
         color: #000;
     }
     .wrapper{
-        padding: 20px 20px;
+        padding: 20px 100px;
+    }
+    .wrapper input{
+        font-size: 22px;
+    }
+    .main__buttons{
+        display: none;
+    }
+    .menu__button{
+        display: block;
+        position: absolute;
+        left: calc(50% - 22.5px);
+    }
+    .numbers{
+        display: none;
+    }
+    .subtitles h3{
+        font-size: 32px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .subtitles p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .find__work form{
+        flex-direction: column;
+    }
+    .work__input select{
+        margin: 10px 0;
+        width: 60%;
+    }
+    .work__input input{
+        margin: 10px 0;
+        width: 60%;
+    }
+    .find__work form select{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .news__section{
+        flex-direction: column;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons form{
+        width: calc(90% - 20px);
+        margin-bottom: 20px;
+    }
+    .news__item{
+        width: 90%;
+    }
+    .news__item img{
+        width: 280px;
+    }
+    .nabidky__list{
+        padding: 0 50px;
+    }
+    .nabidky__list div{
+        width: calc(50% - 42px);
+    }
+
+    .main__buttons.active{
+        margin-left: -20px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+    header{
+        padding: 0 0 50px 0;
+    }
+    section{
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .main__buttons.active{
+        margin-left: -20px;
+    }
+    .logo__button h3 {
+        font-size: 22px;
+        line-height: 20px;
+        color: #000;
+    }
+    .wrapper{
+        padding: 20px 100px;
     }
     .wrapper input{
         font-size: 22px;
@@ -139,6 +231,12 @@
     .news__section img{
         width: 300px;
         height: 150px;
+    }
+    .nabidky__list{
+        padding: 0 50px;
+    }
+    .nabidky__list div{
+        width: calc(33.3% - 42px);
     }
 }
 @media screen and (min-width: 1300px) and (max-width: 1499px) {
