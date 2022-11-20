@@ -230,6 +230,19 @@ section{
     color: white;
     transition: 150ms;
 }
+.zobrazit{
+    margin-top: 50px;
+    padding: 10px 50px;
+    display: block;
+    float: right;
+    background-color: rgba(255, 165, 0, 0.8);
+    border-radius: 50px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.main__section-2{
+    margin-top: 20px;
+}
 section h3{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -242,6 +255,10 @@ section h3{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
 }
 .buttons form{
     width: calc(25% - 20px);
@@ -253,7 +270,7 @@ section h3{
     transition: 300ms;
     cursor: pointer;
 }
-.buttons form button{
+.buttons form button, .zobrazit button{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -262,12 +279,10 @@ section h3{
     border: 0;
     background-color: rgba(255, 165, 0, 0);
 }
-.buttons form:hover{
+.buttons form:hover, .zobrazit:hover{
     background-color: orange;
     transition: 300ms;
 }
-
-
 .menu__button.active{
     position: fixed;
     z-index: 1;
@@ -310,7 +325,7 @@ body.active{
     justify-content: space-between;
     margin-top: 50px;
 }
-.nabidky__list div, .nabidky__list button{
+.nabidky__list div{
     padding: 15px 0;
     width: calc(25% - 42px);
     border: 1px solid #000;
@@ -410,4 +425,125 @@ body.active{
 }
 .nabidky__list button:hover h3{
     color: orange;
+}
+.call-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid orange;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.left-side, .right-side{
+    width: 50%;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-side div:first-child{
+    width: 40%;
+}
+.left-side div:last-child{
+    width: 60%;
+    height: 190px;
+}
+
+.left-side div img{
+    width: 190px;
+}
+.left-side div h3{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: start;
+    line-height: 25px;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.left-side div > a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.right-side > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-side{
+    padding: 20px 0;
+    border-left: 2px solid orange;
+}
+.right-side > h3{
+    width: 100%;
+    border-bottom: 2px solid orange;
+    margin-top: -21px;
+}
+.right-side div div{
+    width: 50%;
+}
+.right-side div div h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.right-side div div ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.dotazy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.dotazy div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid #000;
+    padding: 10px 10px 10px 20px;
+}
+.dotazy div:first-child{
+    border-radius: 30px 30px 0 0;
+}
+.dotazy div:last-child{
+    border-radius: 0 0 30px 30px;
+}
+.dotazy div p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.dotazy div button{
+    background-color: #fff;
+    border: 1.5px solid orange;
+    padding: 4px 30px;
+    border-radius: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    transition: 300ms;
+}
+.dotazy div button:hover{
+    background-color: orange;
+    color: #fff;
+    transition: 300ms;
 }

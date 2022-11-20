@@ -79,6 +79,51 @@
     .vyber{
         flex-direction: column;
     }
+    .zobrazit{
+        margin-right: 10px;
+    }
+    .call-center{
+        margin: 50px 30px 0 20px;
+        flex-direction: column;
+    }
+    .call-center > div{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .left-side{
+        border-bottom: 2px solid orange;
+        flex-direction: column;
+    }
+    .left-side div img{
+        width: 100px;
+    }
+    .left-side div:last-child{
+        margin-top: 40px;
+        width: 90%;
+    }
+    .right-side{
+        border-left: 0;
+    }
+    .right-side div{
+        flex-direction: column;
+    }
+    .dotazy{
+        margin: 50px 50px 0 50px;
+    }
+    .dotazy div{
+        flex-direction: column;
+        padding: 20px 20px
+    }
+    .dotazy div button{
+        margin-top: 10px;
+    }
+    .left-side div h3{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .main__section-2{
+        margin-top: 80px;
+    }
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
     header{
@@ -162,6 +207,32 @@
     }
     .vyber{
         padding: 0 40px;
+    }
+    .zobrazit{
+        margin-right: 50px;
+    }
+    .call-center{
+        margin: 50px 50px 0 50px;
+        flex-direction: column;
+    }
+    .call-center > div{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .left-side{
+        border-bottom: 2px solid orange;
+    }
+    .right-side{
+        border-left: 0;
+    }
+    .dotazy{
+        margin: 50px 50px 0 50px;
+    }
+    .left-side div h3{
+        margin-top: 10px;
+    }
+    .main__section-2{
+        margin-top: 80px;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1299px) {
@@ -251,6 +322,28 @@
     .vyber{
         padding: 0 50px;
     }
+    .zobrazit{
+        margin-right: 50px;
+    }
+    .call-center{
+        margin: 50px 50px 0 50px;
+    }
+    .dotazy{
+        margin: 50px 100px 0 100px;
+    }
+    .left-side div h3{
+        margin-top: 10px;
+    }
+    .left-side div:first-child{
+        width: 30%;
+    }
+    .left-side div:last-child{
+        width: 70%;
+        height: 190px;
+    }
+    .left-side div img{
+        width: 130px;
+    }
 }
 @media screen and (min-width: 1300px) and (max-width: 1499px) {
     header{
@@ -299,10 +392,10 @@
         font-size: 18px;
     }
     .news__section{
-        padding: 0 100px;
+        padding: 0 20px;
     }
     .news__item{
-        width: 50%;
+        width: 25%;
         margin: 0;
     }
     .news__section img{
@@ -311,5 +404,14 @@
     }
     .vyber{
         padding: 0 100px;
+    }
+    .zobrazit{
+        margin-right: 50px;
+    }
+    .call-center{
+        margin: 50px 100px 0 100px;
+    }
+    .dotazy{
+        margin: 50px 100px 0 100px;
     }
 }
