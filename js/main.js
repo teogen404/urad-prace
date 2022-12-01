@@ -15,3 +15,33 @@ function sluzby(){
 function p__mista(){
     document.location = '/p-mista.html';
 }
+function v__mista(){
+    document.location = '/v-mista.html';
+}
+
+function openFAQ(){
+    var faq = document.getElementsByClassName("question");
+    for (i = 0; i < faq.length; i++) {
+        faq[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var body = this.nextElementSibling;
+            if (body.style.display === "block") {
+                body.style.display = "none";
+            } else {
+                body.style.display = "block";
+            }
+        }) ;
+    }
+}
+var faq = document.getElementsByClassName("question");
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    }) ;
+}

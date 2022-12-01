@@ -8,27 +8,28 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.main__buttons ul{
+.main__buttons div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.main__buttons ul a li{
+.main__buttons div a{
     margin: 0 30px;
-    padding: 8px 5px;
+    padding: 8px 10px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
-.main__buttons ul a{
+.main__buttons div a{
     text-decoration: none;
     cursor: pointer;
     color: #000;
     transition: 300ms;
 }
-.main__buttons ul a:hover{
+.main__buttons div a:hover{
     background-color: #fff;
     border-radius: 30px;
 }
@@ -507,7 +508,7 @@ body.active{
     flex-direction: column;
     margin-top: 50px;
 }
-.dotazy div{
+.question{
     width: 100%;
     display: flex;
     align-items: center;
@@ -515,20 +516,20 @@ body.active{
     border: 1.5px solid #000;
     padding: 10px 10px 10px 20px;
 }
-.dotazy div:first-child{
+.question:first-child{
     border-radius: 30px 30px 0 0;
 }
-.dotazy div:last-child{
+.question:nth-child(11){
     border-radius: 0 0 30px 30px;
 }
-.dotazy div p{
+.question p{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
 }
-.dotazy div button{
+.question button{
     background-color: #fff;
     border: 1.5px solid orange;
     padding: 4px 30px;
@@ -542,8 +543,25 @@ body.active{
     letter-spacing: 0.05em;
     transition: 300ms;
 }
-.dotazy div button:hover{
+.question button:hover{
     background-color: orange;
     color: #fff;
     transition: 300ms;
+}
+.answer{
+    display: none;
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, 1);
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+.answer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
 }
