@@ -15,9 +15,6 @@ function sluzby(){
 function p__mista(){
     document.location = '/p-mista.html';
 }
-function v__mista(){
-    document.location = '/v-mista.html';
-}
 
 function openFAQ(){
     var faq = document.getElementsByClassName("question");

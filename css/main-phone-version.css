@@ -129,8 +129,7 @@
     }
     .main__buttons.active div{
         flex-direction: column;
-        height: 50%;
-        margin-top: -100px;
+        margin-top: -200px;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
@@ -213,10 +212,8 @@
     .main__buttons.active{
         margin-left: -100px;
     }
-    .main__buttons.active div{
-        flex-direction: column;
-        height: 50%;
-        margin-top: -100px;
+    .main__buttons.active div a li{
+        margin: 40px 0;
     }
 
     .vyber{
@@ -258,7 +255,11 @@
         text-align: center;
     }
     .main__buttons.active{
-        margin-left: -20px;
+        margin-left: -40px;
+    }
+
+    .main__buttons.active div a{
+        margin: 30px 0;
     }
     .logo__button h3 {
         font-size: 22px;
@@ -420,5 +421,8 @@
     }
     .dotazy{
         margin: 50px 100px 0 100px;
+    }
+    .main__buttons.active{
+        margin-left: -120px;
     }
 }
